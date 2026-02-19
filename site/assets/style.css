@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  /* Supprimez ou commentez ces lignes : */
+  /* background: white; */
+  /* box-shadow: 0 2px 6px rgba(0,0,0,0.1); */
+  /* border-radius: 8px; */
+  
+  /* Gardez celles-ci pour la mise en page : */
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
