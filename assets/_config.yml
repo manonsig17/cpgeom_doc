@@ -1,0 +1,6 @@
+theme: minima
+title: CPGeom Documentation
+description: Ressources et tutoriels géomatiques
+
+include:
+  - assets
