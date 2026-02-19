@@ -82,35 +82,35 @@ La forêt française joue un rôle essentiel dans la transition écologique : st
 ### 🌳 Une description précise des peuplements : hauteur, structure et sous‑bois
 Grâce aux campagnes LiDAR HD, aux orthophotos et à l’Inventaire Forestier National (IFN), l’IGN produit des informations détaillées sur :
 
-la hauteur des arbres, permettant d’estimer la biomasse, la maturité des peuplements et leur vulnérabilité aux tempêtes ou sécheresses ;
+- la hauteur des arbres, permettant d’estimer la biomasse, la maturité des peuplements et leur vulnérabilité aux tempêtes ou sécheresses ;
 
-la structure verticale, essentielle pour comprendre la biodiversité (strates arbustives, régénération naturelle, densité du sous‑bois) ;
+- la structure verticale, essentielle pour comprendre la biodiversité (strates arbustives, régénération naturelle, densité du sous‑bois) ;
 
-la composition des essences, utile pour suivre les dynamiques liées au changement climatique (migration, dépérissement, ravageurs).
+- la composition des essences, utile pour suivre les dynamiques liées au changement climatique (migration, dépérissement, ravageurs).
 
 Ces données permettent d’anticiper les évolutions des forêts et d’adapter les pratiques de gestion.
 
 ### 🚚 Les dessertes forestières : un élément clé de la gestion durable
 Les dessertes forestières (routes, pistes, chemins) sont indispensables pour :
 
-l’exploitation du bois,
+- l’exploitation du bois,
 
-la prévention et la lutte contre les incendies,
+- la prévention et la lutte contre les incendies,
 
-l’accès pour les secours,
+- l’accès pour les secours,
 
-la gestion des risques naturels.
+- la gestion des risques naturels.
 
 L’IGN cartographie et met à jour ces réseaux, permettant aux collectivités et aux gestionnaires de planifier les interventions, d’évaluer l’accessibilité des massifs et d’optimiser les opérations sylvicoles.
 
 ### 🌾 Les suivis PAC : un lien fort entre agriculture et forêt
 Les données IGN sont également mobilisées dans le cadre des suivis de la Politique Agricole Commune (PAC), notamment pour :
 
-distinguer les surfaces agricoles des surfaces boisées,
+- distinguer les surfaces agricoles des surfaces boisées,
 
-identifier les éléments semi‑naturels (haies, bosquets, arbres isolés),
+- identifier les éléments semi‑naturels (haies, bosquets, arbres isolés),
 
-vérifier l’éligibilité des parcelles aux aides.
+- vérifier l’éligibilité des parcelles aux aides.
 
 Cette articulation agriculture‑forêt est essentielle pour comprendre les continuités écologiques et les pressions sur les milieux.
 
@@ -118,13 +118,13 @@ Cette articulation agriculture‑forêt est essentielle pour comprendre les cont
 Les haies constituent un élément majeur de la trame verte, assurant la continuité écologique entre les massifs forestiers, les zones humides et les espaces agricoles.
 Grâce aux données LiDAR HD, aux orthophotos et aux modèles numériques, l’IGN peut :
 
-détecter automatiquement les haies,
+- détecter automatiquement les haies,
 
-suivre leur évolution (arrachage, replantation, densification),
+- suivre leur évolution (arrachage, replantation, densification),
 
-caractériser leur hauteur et leur structure,
+- caractériser leur hauteur et leur structure,
 
-contribuer aux politiques de restauration des continuités écologiques.
+- contribuer aux politiques de restauration des continuités écologiques.
 
 Ces informations sont cruciales pour la biodiversité, la lutte contre l’érosion, l’ombrage des cultures et l’adaptation au changement climatique.
 
@@ -132,11 +132,11 @@ Ces informations sont cruciales pour la biodiversité, la lutte contre l’éros
 Les vieilles forêts — forêts anciennes, peu exploitées, riches en bois mort et en micro‑habitats — sont des réservoirs de biodiversité.
 L’IGN contribue à leur identification en croisant :
 
-les données historiques (cartes anciennes, archives),
+- les données historiques (cartes anciennes, archives),
 
-les observations de terrain de l’IFN,
+- les observations de terrain de l’IFN,
 
-les indicateurs structuraux issus du LiDAR (hauteur, irrégularité, densité, présence de gros bois).
+- les indicateurs structuraux issus du LiDAR (hauteur, irrégularité, densité, présence de gros bois).
 
 Ces analyses permettent de repérer les zones à forte valeur écologique et d’accompagner les stratégies de conservation.
 
