@@ -1,8 +1,14 @@
 <link rel="stylesheet" href="assets/style.css">
+<div class="container">
 
+# 📘 Documentation CPGeom
 
-# Accueil de mon site de documentation 
+Bienvenue sur la documentation du projet **CPGeom**.
 
+## 🔎 Sections principales
 
-## Les sources 
-[voir la présentation de l'IGN](./ign.md)
+- 👉 [Présentation de l’IGN](ign.html)
+- 📚 Documentation technique (à venir)
+- 🗺️ Exemples et cas pratiques (à venir)
+
+</div>
