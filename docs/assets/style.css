@@ -6,11 +6,13 @@ body {
 }
 
 .container {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
+  /* Supprimez ou commentez ces lignes : */
+  /* background: white; */
+  /* box-shadow: 0 2px 6px rgba(0,0,0,0.1); */
+  /* border-radius: 8px; */
+  
+  /* Gardez celles-ci pour la mise en page : */
   max-width: 900px;
   margin: auto;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
 }
-
