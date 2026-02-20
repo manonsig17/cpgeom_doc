@@ -4,11 +4,8 @@ theme:
   name: material
   palette:
     - scheme: default
-      primary: teal
-      accent: light green
-    - scheme: slate
-      primary: green
-      accent: lime
+      primary: light green
+      accent: pink
   features:
     - navigation.tabs
     - navigation.sections
