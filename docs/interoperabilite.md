@@ -6,19 +6,19 @@
 - Connaître les principaux webservices  
 - Identifier les standards, normes et organisations clés  
 
-# 1. Définition de l’interopérabilité
+## 1. Définition de l’interopérabilité
 
-## Interopérabilité
+### Interopérabilité
 Capacité de différents systèmes, logiciels ou organisations à échanger, comprendre et réutiliser des données sans perte d’information ni transformation complexe.
 
-## Compatibilité vs Interopérabilité
+### Compatibilité vs Interopérabilité
 
 | Concept | Description |
 |--------|-------------|
 | Compatibilité | Notion verticale : un outil fonctionne dans un environnement spécifique (format propriétaire, écosystème fermé). |
 | Interopérabilité | Notion transversale : les données circulent entre outils hétérogènes sans friction. |
 
-## Langage pivot
+### Langage pivot
 Format ou langage universel permettant de réduire les efforts de traduction entre systèmes.
 
 Exemples :
@@ -26,7 +26,7 @@ Exemples :
 - GML : format pivot normalisé  
 
 
-# 2. Contexte : pourquoi l’interopérabilité est essentielle ?
+## 2. Contexte : pourquoi l’interopérabilité est essentielle ?
 
 - Multiplication des outils SIG (QGIS, ArcGIS, PostGIS, FME…)  
 - Collaboration entre acteurs publics, privés et citoyens  
@@ -36,13 +36,13 @@ Exemples :
 - Réduction des coûts d’intégration et de maintenance  
 
 
-# 3. Standards OGC
+## 3. Standards OGC
 
-## OGC – Open Geospatial Consortium
+### OGC – Open Geospatial Consortium
 Organisation internationale développant des standards ouverts pour l’interopérabilité géospatiale.  
 https://www.ogc.org/standards/
 
-### Exemples de standards OGC
+#### Exemples de standards OGC
 - WMS – Web Map Service  
 - WMTS – Web Map Tile Service  
 - WFS – Web Feature Service  
@@ -53,31 +53,31 @@ https://www.ogc.org/standards/
 - SLD – Styled Layer Descriptor  
 
 
-# 4. Normes ISO
+## 4. Normes ISO
 
-## ISO / TC 211
+### ISO / TC 211
 Comité technique dédié à la normalisation des informations géographiques.
 
-### Processus d’élaboration d’une norme
+#### Processus d’élaboration d’une norme
 1. Proposition  
 2. Préparation  
 3. Comité  
 4. Enquête  
 5. Approbation  
 
-### Normes importantes
+#### Normes importantes
 - ISO 19115 : métadonnées  
 - ISO 19139 : implémentation XML des métadonnées  
 - ISO 19111 : systèmes de référence spatiale  
 
 
-# 5. Directive INSPIRE
+## 5. Directive INSPIRE
 
 https://www.ecologie.gouv.fr/politiques-publiques/directive-europeenne-inspire
 
 Objectif : rendre les données environnementales **accessibles**, **interopérables** et **réutilisables** dans toute l’Europe.
 
-### Principes FAIR
+#### Principes FAIR
 - **Findable** — *Facile à trouver*  
 - **Accessible** — *Facile à accéder*  
 - **Interoperable** — *Interopérable*  
@@ -85,34 +85,34 @@ Objectif : rendre les données environnementales **accessibles**, **interopérab
 
 
 
-# 6. Enjeux de l’interopérabilité
+## 6. Enjeux de l’interopérabilité
 
-## Sémantique
+### Sémantique
 Définition standardisée des concepts, structures et sens des données.  
 - QGIS : couche  
 - PostGIS : table  
 - ArcGIS Pro : classe d’entité  
 
-## Géographique
+### Géographique
 Basée sur des systèmes géodésiques uniformes.  
 - France : RGF93  
 - Projection courante : EPSG:2154 (Lambert 93)  
 
-## Directives et recommandations
+### Directives et recommandations
 Les initiatives européennes (ex : INSPIRE) encouragent l’interopérabilité et facilitent l’échange et la réutilisation des données.
 
-## Partenariats et collaborations
+### Partenariats et collaborations
 Les collectivités et acteurs privés travaillent ensemble pour garantir l’interopérabilité.  
 Exemple : Métropole Rouen Normandie.
 
-## Techniques
+### Techniques
 Formats, API, protocoles, services web.
 
-## Organisationnelles
+### Organisationnelles
 Mutualisation, gouvernance, diffusion, documentation.
 
 
-# 7. BIM, CIM, TIM
+## 7. BIM, CIM, TIM
 
 https://www.urbanisme-puca.gouv.fr/bim-cim-tim-r193.html
 
@@ -122,7 +122,7 @@ https://www.urbanisme-puca.gouv.fr/bim-cim-tim-r193.html
 
 Objectif : optimiser la conception, la gestion et la réhabilitation des bâtiments, infrastructures et territoires.
 
-### Tendances
+#### Tendances
 - Représentation 3D massive  
 - Convergence SIG + BIM + moteurs 3D  
 - Exemples :  
@@ -131,9 +131,9 @@ Objectif : optimiser la conception, la gestion et la réhabilitation des bâtime
 
 
 
-# 8. Formats et webservices
+## 8. Formats et webservices
 
-## Webservices (distant)
+### Webservices (distant)
 
 | Service | Rôle | Utilisations courantes |
 |--------|------|------------------------|
@@ -145,40 +145,40 @@ Objectif : optimiser la conception, la gestion et la réhabilitation des bâtime
 | **WPS** | Traitements à distance | Calculs lourds, automatisation, workflows web |
 
 
-## Formats (local)
+### Formats (local)
 
-### GML (Geography Markup Language)
+#### GML (Geography Markup Language)
 - Format XML normalisé OGC  
 - Très structuré, riche sémantiquement  
 - Utilisé pour INSPIRE, cadastre, modèles complexes  
 
-### KML (Keyhole Markup Language)
+#### KML (Keyhole Markup Language)
 - Format Google Earth  
 - Visualisation 3D simple, annotations  
 
-### GPKG (GeoPackage)
+#### GPKG (GeoPackage)
 - Format SQLite normalisé OGC  
 - Vecteur + raster + styles  
 - Format d’échange moderne et portable  
 
-### SLD (Styled Layer Descriptor)
+#### SLD (Styled Layer Descriptor)
 - Style XML pour WMS/WFS  
 - Standard OGC  
 
-### WKT-CRS (Well-Known Text)
+#### WKT-CRS (Well-Known Text)
 - Définition textuelle d’un système de coordonnées  
 - Utilisé dans QGIS, PostGIS, PROJ  
 
 ---
 
-## Formats cloud
+### Formats cloud
 - **COG – Cloud Optimized GeoTIFF**  
   Un GeoTIFF optimisé devient un flux accessible via HTTP.
 
 
-# 9. Webservices : exemples concrets
+## 9. Webservices : exemples concrets
 
-## WMTS : renvoie une tuile
+### WMTS : renvoie une tuile
 https://data.geopf.fr/wmts?
 SERVICE=WMTS&
 REQUEST=GetTile&
@@ -192,7 +192,7 @@ TILEROW=89&
 TILECOL=130
 
 
-## WMS : renvoie une image
+### WMS : renvoie une image
 https://data.geopf.fr/wms-r/wms?
 SERVICE=WMS&
 VERSION=1.3.0&
@@ -206,7 +206,7 @@ FORMAT=image/jpeg
 
 
 
-## WFS : renvoie des entités vecteur
+### WFS : renvoie des entités vecteur
 https://data.geopf.fr/wfs/wfs?
 SERVICE=WFS&
 REQUEST=GetFeature&
@@ -216,12 +216,12 @@ COUNT=5000&
 SRSNAME=EPSG:3857
 
 
-## TMS : grille XYZ
+### TMS : grille XYZ
 https://tile.openstreetmap.org/11/1026/749.png (tile.openstreetmap.org in Bing)
 
 
 
-# 10. Comparaison synthétique
+## 10. Comparaison synthétique
 
 | Critère | WMS | WMTS | TMS |
 |--------|-----|------|------|
@@ -232,7 +232,7 @@ https://tile.openstreetmap.org/11/1026/749.png (tile.openstreetmap.org in Bing)
 | Avantage | Flexible | Rapide, scalable | Simple |
 | Inconvénient | Lent | Peu flexible | Non OGC |
 
-# 11. Résumé visuel
+## 11. Résumé visuel
 
 - **WMS** → le serveur *dessine* une image à chaque requête  
 - **WMTS** → le serveur *sert* une tuile déjà calculée  
@@ -242,7 +242,7 @@ https://tile.openstreetmap.org/11/1026/749.png (tile.openstreetmap.org in Bing)
 → description standardisée des capacités d’un service
 
 
-# 12. Catalogue et métadonnées
+## 12. Catalogue et métadonnées
 
 ## Axes de qualité
 - Données exhaustives, propres, géométriquement correctes  
@@ -250,7 +250,7 @@ https://tile.openstreetmap.org/11/1026/749.png (tile.openstreetmap.org in Bing)
 - Données diffusables (CSW, catalogues)  
 - Données réutilisables (accessibles, ouvertes)  
 
-# 13. ETL (Extract, Transform, Load)
+## 13. ETL (Extract, Transform, Load)
 
 Outils permettant d’automatiser les traitements :  
 - Extraction  
@@ -259,7 +259,119 @@ Outils permettant d’automatiser les traitements :
 
 Aussi appelé **Spatial ETL** ou **GTL**.
 
-# 14. Les formats de données
+## 14. Les formats de données
 
 ![](./img/vec_raster.jpg)
+
+En géomatique, les données spatiales sont généralement représentées sous deux grandes formes : **les données vecteur** et **les données raster**.  
+Ces deux modèles répondent à des usages différents et sont complémentaires dans un SIG.
+
+### 1. Les données vecteur
+
+Les données vecteur représentent l’espace à l’aide de **géométries précises** : points, lignes et polygones.  
+Elles sont idéales pour les objets discrets, bien délimités.
+Un vecteur est composé d'une géométrie et d'uen table attributaire
+
+#### 1.1 Types de géométries
+
+| Type | Description | Exemples |
+|------|-------------|----------|
+| **Point** | Une position unique dans l’espace | arbres, bornes, adresses |
+| **Ligne** | Suite de points connectés | routes, réseaux, rivières |
+| **Polygone** | Surface fermée | parcelles, bâtiments, zones administratives |
+
+
+
+#### 1.2 Exemples d’usage des données vecteur
+
+- **Cartographie du cadastre** : parcelles, bâtiments, limites foncières  
+- **Réseaux** : eau, électricité, fibre, routes, transports  
+- **Analyse spatiale** : calculs de distances, intersections, buffers  
+- **Urbanisme** : zonages, PLU, périmètres réglementaires  
+- **Gestion d’infrastructures** : inventaires, inspections, patrimoine  
+
+#### 1.3 Formats vecteur courants
+
+| Format | Description | Usage |
+|--------|-------------|-------|
+| **Shapefile (.shp)** | Format historique ESRI, composé de plusieurs fichiers | Très répandu mais limité (255 champs, pas d’UTF-8) |
+| **GeoPackage (.gpkg)** | Format SQLite moderne, standard OGC | Stockage complet (vecteur + raster), très interopérable |
+| **GeoJSON (.geojson)** | Format texte basé sur JSON | Web, API, échanges légers |
+| **GML (.gml)** | Format XML riche et structuré | INSPIRE, données officielles, échanges institutionnels |
+| **KML (.kml)** | Format Google Earth | Visualisation 3D simple, annotations |
+| **PostGIS (base PostgreSQL)** | Extension spatiale de PostgreSQL | Stockage SIG professionnel, analyses spatiales avancées |
+| **GPX (.gpx)** | Format XML pour traces GPS | Randonnée, cyclisme, navigation, import/export GPS |
+| **File Geodatabase (.gdb)** | Format propriétaire ESRI | Stockage volumineux, topologie, géotraitements ArcGIS |
+| **MapInfo TAB (.tab)** | Format MapInfo | Collectivités, bureaux d’études, SIG historiques |
+| **MAT (.mat)** | Format MATLAB | Données scientifiques, matrices, traitement numérique |
+| **DAT (.dat)** | Format générique (texte ou binaire) | Données brutes, exports logiciels, formats propriétaires |
+| **GCT / GeoConcept (.gct)** | Format GeoConcept | SIG métier (transport, logistique, réseaux) |
+
+
+
+###  2. Les données raster
+
+Les données raster représentent l’espace sous forme de **grille de pixels**.  
+Chaque pixel possède une valeur (couleur, altitude, température…).
+
+Elles sont idéales pour les phénomènes **continus** ou les images.
+
+
+#### 2.1 Types de raster
+
+| Type | Description | Exemples |
+|------|-------------|----------|
+| **Imagerie** | Photos aériennes, satellites | orthophotos, Sentinel, drone |
+| **Modèles numériques** | Valeurs continues | MNT, MNS, modèles hydrologiques |
+| **Cartes thématiques** | Valeurs catégorielles | occupation du sol, risques |
+| **Raster dérivés** | Calculs issus d’analyses | pentes, orientations, indices NDVI |
+
+---
+
+#### 2.2 Exemples d’usage des données raster
+
+- **Analyse environnementale** : NDVI, humidité, température  
+- **Modélisation 3D** : MNT/MNS, ombrages, profils altimétriques  
+- **Cartographie d’occupation du sol** : Corine Land Cover, OSO  
+- **Suivi temporel** : évolution des cultures, déforestation  
+- **Hydrologie** : bassins versants, écoulements, zones inondables  
+- **Imagerie** : orthophotos, vues satellites, thermographie  
+
+---
+
+#### 2.3 Formats raster courants
+
+| Format | Description | Usage |
+|--------|-------------|-------|
+| **GeoTIFF (.tif)** | Format raster géoréférencé | Standard SIG, très polyvalent |
+| **COG (Cloud Optimized GeoTIFF)** | Version optimisée pour le cloud | Lecture en streaming HTTP |
+| **JPEG2000 (.jp2)** | Compression avancée | Imagerie aérienne, archives |
+| **IMG (.img)** | Format ERDAS | Données volumineuses |
+| **ASCII Grid (.asc)** | Format texte simple | MNT, échanges scientifiques |
+
+
+### 3. Comparaison vecteur / raster
+
+| Critère | Vecteur | Raster |
+|---------|---------|--------|
+| Représentation | Objets discrets | Phénomènes continus |
+| Précision | Très élevée | Dépend de la résolution |
+| Taille des fichiers | Souvent légère | Peut être très lourde |
+| Analyses | Topologie, réseaux | Calculs spatiaux, surfaces |
+| Exemples | Routes, bâtiments | Orthophotos, MNT |
+
+
+### 4. Complémentarité des deux modèles
+
+Dans un SIG, vecteur et raster sont **complémentaires** :
+
+- Un **MNT raster** peut servir à calculer des **courbes de niveau vecteur**  
+- Une **orthophoto raster** sert de fond de plan pour des **numérisations vecteur**  
+- Un **zonage vecteur** peut être appliqué à un **raster** pour extraire des valeurs  
+
+# 5. Résumé
+
+- **Vecteur** : objets précis, géométries, analyses topologiques  
+- **Raster** : images, surfaces continues, analyses environnementales  
+- Les deux sont indispensables dans un SIG moderne  
 
