@@ -5,13 +5,13 @@
 ## 1. Stratégie de l’IGN
 Philippe Abadie a ouvert sa présentation en exposant les grandes orientations stratégiques de l’IGN :
 
-renforcer la souveraineté géographique nationale,
+- renforcer la souveraineté géographique nationale,
 
-moderniser la production et la diffusion des données,
+- moderniser la production et la diffusion des données,
 
-accompagner les politiques publiques, notamment environnementales,
+- accompagner les politiques publiques, notamment environnementales,
 
-développer une culture de l’ouverture et de la collaboration.
+- développer une culture de l’ouverture et de la collaboration.
 
 Cette stratégie vise à positionner l’IGN comme un acteur central et incontournable de la donnée géographique en France.
 
@@ -59,11 +59,11 @@ Ces investissements soutiennent des projets nationaux majeurs, notamment dans la
 Une partie importante de la présentation était consacrée aux services et aux géocommuns.
 L’IGN souhaite :
 
-proposer des services plus simples, plus intégrés et plus accessibles,
+- proposer des services plus simples, plus intégrés et plus accessibles,
 
-développer des communs numériques autour de la géographie,
+- développer des communs numériques autour de la géographie,
 
-encourager la mutualisation et la co‑construction avec les partenaires publics et privés.
+- encourager la mutualisation et la co‑construction avec les partenaires publics et privés.
 
 Les géocommuns deviennent ainsi un pilier de l’écosystème géographique ouvert que l’IGN construit.
 
@@ -129,7 +129,8 @@ Grâce aux données LiDAR HD, aux orthophotos et aux modèles numériques, l’I
 Ces informations sont cruciales pour la biodiversité, la lutte contre l’érosion, l’ombrage des cultures et l’adaptation au changement climatique.
 
 ### 🌲 Les vieilles forêts : un patrimoine écologique à identifier
-Les vieilles forêts — forêts anciennes, peu exploitées, riches en bois mort et en micro‑habitats — sont des réservoirs de biodiversité.
+Les vieilles forêts ainsi que les forêts anciennes, peu exploitées, riches en bois mort et en micro‑habitats sont des réservoirs de biodiversité.
+
 L’IGN contribue à leur identification en croisant :
 
 - les données historiques (cartes anciennes, archives),
