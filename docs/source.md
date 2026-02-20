@@ -2,7 +2,7 @@
 
 Au sein de notre collectivité, nous mobilisons plusieurs types de données pour mener à bien nos missions. Deux grandes familles se distinguent :
 
-## 📌 Données internes  
+## 1. Données internes  
 Nous collectons nous‑mêmes une partie des données grâce à l’expertise métier.  
 Cette connaissance fine du terrain nous permet d’obtenir des informations :
 
@@ -11,7 +11,7 @@ Cette connaissance fine du terrain nous permet d’obtenir des informations :
 - adaptées aux besoins opérationnels  
 - enrichies par l’expérience des agents qui connaissent parfaitement le territoire  
 
-## 📌 Données externes  
+## 2. Données externes  
 Nous utilisons également des données provenant de l’IGN, notamment :
 
 - **BD TOPO**  
@@ -21,11 +21,11 @@ Ces ressources constituent une base solide pour nos analyses et nos projets.
 
 ---
 
-# 🔎 Focus sur mon projet
+## 🔎 Focus sur mon projet !
 
 Dans le cadre du projet de migration, nous avons choisi de croiser plusieurs sources de données afin d’obtenir un résultat robuste et cohérent.
 
-## 🌊 Exemple : la partie GEMAPI  
+### 🌊 Exemple : la partie GEMAPI  
 La thématique GEMAPI travaille en lien étroit avec le **SAGE**, ce qui nous a permis de récupérer :
 
 - des données d’**hydrographie**  
@@ -36,7 +36,7 @@ Pour répondre à leurs besoins, notamment en matière de **MNT précis**, nous 
 - le **MNT issu du PCRS de LM**,  
   garantissant une précision adaptée aux enjeux hydrauliques et environnementaux.
 
-## 🐾 Exemple : la partie Faune et Flore
+### 🐾 Exemple : la partie Faune et Flore
 
 La thématique biodiversité s’appuie sur deux grandes catégories de données :  
 - celles issues des **études de terrain**, réalisées par des experts ou des prestataires,  
@@ -44,7 +44,7 @@ La thématique biodiversité s’appuie sur deux grandes catégories de données
 
 ---
 
-### 📘 Données issues des études de terrain
+#### 📘 Données issues des études de terrain
 
 Les équipes biodiversité travaillent régulièrement avec des bureaux d’études ou des naturalistes qui réalisent des inventaires sur le terrain.  
 Ces études permettent d’obtenir :
@@ -57,7 +57,7 @@ Ces relevés sont essentiels, car ils complètent ou corrigent les données nati
 
 ---
 
-### 🌿 Données externes : INPN, taxonomie et références botaniques
+#### 🌿 Données externes : INPN, taxonomie et références botaniques
 
 Pour la partie faune, les agents s’appuient largement sur les données de l’**INPN**, notamment pour :
 
