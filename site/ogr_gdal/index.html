@@ -23,7 +23,7 @@
     
     
       
-        <title>Ogr gdal - Site de Documentation GPGEOM</title>
+        <title>🖥️ Manipulation de fichiers en ligne de commande (CLI) - Site de Documentation GPGEOM</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#prise-de-note-gdalogr" class="md-skip">
+        <a href="#manipulation-de-fichiers-en-ligne-de-commande-cli" class="md-skip">
           Skip to content
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Ogr gdal
+              🖥️ Manipulation de fichiers en ligne de commande (CLI)
             
           </span>
         </div>
@@ -277,7 +277,7 @@
   
     
   
-  Ogr gdal
+  🖥️ Manipulation de fichiers en ligne de commande (CLI)
 
       </a>
     </li>
@@ -486,7 +486,7 @@
   <span class="md-ellipsis">
     
   
-    Ogr gdal
+    🖥️ Manipulation de fichiers en ligne de commande (CLI)
   
 
     
@@ -504,7 +504,7 @@
   <span class="md-ellipsis">
     
   
-    Ogr gdal
+    🖥️ Manipulation de fichiers en ligne de commande (CLI)
   
 
     
@@ -530,22 +530,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#cours-workflow-git-mkdocs-gdalogr-et-outils-cli" class="md-nav__link">
+  <a href="#1-test-de-la-commande-ogrinfo" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📘 Cours : Workflow Git, MkDocs, GDAL/OGR et outils CLI
+        1️⃣ Test de la commande ogrinfo
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="📘 Cours : Workflow Git, MkDocs, GDAL/OGR et outils CLI">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-verification-du-repertoire-courant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ Vérification du répertoire courant
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-creation-et-navigation-dans-un-dossier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3️⃣ Création et navigation dans un dossier
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3️⃣ Création et navigation dans un dossier">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-preparation-de-lenvironnement-linux" class="md-nav__link">
+  <a href="#creation-dun-dossier" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. 🔧 Préparation de l’environnement Linux
+        Création d’un dossier
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#se-deplacer-dans-le-dossier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Se déplacer dans le dossier
       
     </span>
   </a>
@@ -558,10 +591,71 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-creation-dun-depot-git-et-gestion-des-commits" class="md-nav__link">
+  <a href="#4-creation-et-modification-dun-fichier" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. 🗂️ Création d’un dépôt Git et gestion des commits
+        4️⃣ Création et modification d’un fichier
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4️⃣ Création et modification d’un fichier">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creation-dun-fichier-vide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Création d’un fichier vide
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verification-avec-ls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vérification avec ls
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ajouter-du-contenu-dans-le-fichier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ajouter du contenu dans le fichier
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#afficher-le-contenu-du-fichier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Afficher le contenu du fichier
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-renommer-un-fichier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5️⃣ Renommer un fichier
       
     </span>
   </a>
@@ -569,87 +663,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-mise-en-place-dun-site-avec-mkdocs" class="md-nav__link">
+  <a href="#6-copier-un-fichier" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. 📚 Mise en place d’un site avec MkDocs
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-manipulation-de-donnees-vrt-avec-gdalogr" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. 🌐 Manipulation de données VRT avec GDAL/OGR
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-telechargement-et-traitement-de-donnees-raster" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        5. 🗺️ Téléchargement et traitement de données raster
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6-decoupage-et-reprojection-de-donnees-raster" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        6. ✂️ Découpage et reprojection de données raster
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#7-extraction-de-communes-et-traitements-avances" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        7. 🧭 Extraction de communes et traitements avancés
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#8-analyses-raster-courbes-de-niveau-ombrage-hypsometrie" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        8. 🏔️ Analyses raster : courbes de niveau, ombrage, hypsométrie
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#9-manipulation-de-fichiers-et-commandes-cli" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        9. 📁 Manipulation de fichiers et commandes CLI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#10-connexion-a-postgresql" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        10. 🗄️ Connexion à PostgreSQL
+        6️⃣ Copier un fichier
       
     </span>
   </a>
@@ -745,22 +762,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#cours-workflow-git-mkdocs-gdalogr-et-outils-cli" class="md-nav__link">
+  <a href="#1-test-de-la-commande-ogrinfo" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📘 Cours : Workflow Git, MkDocs, GDAL/OGR et outils CLI
+        1️⃣ Test de la commande ogrinfo
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="📘 Cours : Workflow Git, MkDocs, GDAL/OGR et outils CLI">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-verification-du-repertoire-courant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ Vérification du répertoire courant
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-creation-et-navigation-dans-un-dossier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3️⃣ Création et navigation dans un dossier
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3️⃣ Création et navigation dans un dossier">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-preparation-de-lenvironnement-linux" class="md-nav__link">
+  <a href="#creation-dun-dossier" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. 🔧 Préparation de l’environnement Linux
+        Création d’un dossier
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#se-deplacer-dans-le-dossier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Se déplacer dans le dossier
       
     </span>
   </a>
@@ -773,10 +823,71 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-creation-dun-depot-git-et-gestion-des-commits" class="md-nav__link">
+  <a href="#4-creation-et-modification-dun-fichier" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. 🗂️ Création d’un dépôt Git et gestion des commits
+        4️⃣ Création et modification d’un fichier
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4️⃣ Création et modification d’un fichier">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creation-dun-fichier-vide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Création d’un fichier vide
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verification-avec-ls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vérification avec ls
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ajouter-du-contenu-dans-le-fichier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ajouter du contenu dans le fichier
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#afficher-le-contenu-du-fichier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Afficher le contenu du fichier
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-renommer-un-fichier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5️⃣ Renommer un fichier
       
     </span>
   </a>
@@ -784,87 +895,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-mise-en-place-dun-site-avec-mkdocs" class="md-nav__link">
+  <a href="#6-copier-un-fichier" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. 📚 Mise en place d’un site avec MkDocs
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-manipulation-de-donnees-vrt-avec-gdalogr" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. 🌐 Manipulation de données VRT avec GDAL/OGR
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-telechargement-et-traitement-de-donnees-raster" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        5. 🗺️ Téléchargement et traitement de données raster
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6-decoupage-et-reprojection-de-donnees-raster" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        6. ✂️ Découpage et reprojection de données raster
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#7-extraction-de-communes-et-traitements-avances" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        7. 🧭 Extraction de communes et traitements avancés
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#8-analyses-raster-courbes-de-niveau-ombrage-hypsometrie" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        8. 🏔️ Analyses raster : courbes de niveau, ombrage, hypsométrie
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#9-manipulation-de-fichiers-et-commandes-cli" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        9. 📁 Manipulation de fichiers et commandes CLI
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#10-connexion-a-postgresql" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        10. 🗄️ Connexion à PostgreSQL
+        6️⃣ Copier un fichier
       
     </span>
   </a>
@@ -888,40 +922,135 @@
 
 
 
-<pre><code class="language-bash">idgeo@GS6:~$ ogrinfo
-Usage: ogrinfo [--help] [--help-general]
-               [-if &lt;driver_name&gt;] [-json] [-ro] [-q] [-where &lt;restricted_where&gt;|@f&lt;ilename&gt;]
-               [-spat &lt;xmin&gt; &lt;ymin&gt; &lt;xmax&gt; &lt;ymax&gt;] [-geomfield &lt;field&gt;] [-fid &lt;fid&gt;]
-               [-sql &lt;statement&gt;|@&lt;filename&gt;] [-dialect &lt;sql_dialect&gt;] [-al] [-rl]
-               [-so|-features] [-fields={YES|NO}]]
-               [-geom={YES|NO|SUMMARY|WKT|ISO_WKT}] [-oo &lt;NAME&gt;=&lt;VALUE&gt;]...
-               [-nomd] [-listmdd] [-mdd {&lt;domain&gt;|all}]...
-               [-nocount] [-noextent] [-nogeomtype] [-wkt_format WKT1|WKT2|&lt;other_values&gt;]
-               [-fielddomain &lt;name&gt;]
-               &lt;datasource_name&gt; [&lt;layer&gt; [&lt;layer&gt; ...]]
-
-FAILURE: No datasource specified.
-idgeo@GS6:~$ pwd
-/home/idgeo
-idgeo@GS6:~$ mkdir cli
-idgeo@GS6:~$ cd cli
-idgeo@GS6:~/cli$ touch exercice_cli.txt
-idgeo@GS6:~/cli$ ls
-exercice_cli.txt
-idgeo@GS6:~/cli$ echo &quot;Ma nouvelle phrase&quot; &gt;&gt; exercice_cli.txt
-idgeo@GS6:~/cli$ cat exercice_cli.txt
-Ma nouvelle phrase
-idgeo@GS6:~/cli$ mv exercice_cli.txt exercice_cli_initial.txt
-idgeo@GS6:~/cli$ ls
-exercice_cli_initial.txt
-idgeo@GS6:~/cli$ cat exercice_cli_initial.txt
-Ma nouvelle phrase
-idgeo@GS6:~/cli$ cp exercice_cli_initial.txt exercice_cli_copie.txt
-idgeo@GS6:~/cli$ ls
-exercice_cli_copie.txt  exercice_cli_initial.txt
-idgeo@GS6:~/cli$ ls
-exercice_cli_copie.txt  exercice_cli_initial.txt
+<h1 id="manipulation-de-fichiers-en-ligne-de-commande-cli">🖥️ Manipulation de fichiers en ligne de commande (CLI)</h1>
+<p>Dans cet exercice, nous utilisons le terminal Linux pour manipuler des fichiers et des dossiers, ainsi que pour tester une commande SIG (<code>ogrinfo</code>).</p>
+<hr />
+<h2 id="1-test-de-la-commande-ogrinfo">1️⃣ Test de la commande <code>ogrinfo</code></h2>
+<pre><code class="language-bash">ogrinfo
 </code></pre>
+<p>La commande affiche son message d’aide (usage), car <strong>aucune source de données (datasource) n’a été spécifiée</strong>.</p>
+<p>Message clé :</p>
+<pre><code>FAILURE: No datasource specified.
+</code></pre>
+<p>Cela signifie que <code>ogrinfo</code> attend un fichier ou une base de données géospatiale en paramètre (par exemple un Shapefile, GeoJSON, etc.).</p>
+<hr />
+<h2 id="2-verification-du-repertoire-courant">2️⃣ Vérification du répertoire courant</h2>
+<pre><code class="language-bash">pwd
+</code></pre>
+<p>Résultat :</p>
+<pre><code>/home/idgeo
+</code></pre>
+<p>La commande <code>pwd</code> (<em>print working directory</em>) affiche le dossier dans lequel on se trouve actuellement.</p>
+<hr />
+<h2 id="3-creation-et-navigation-dans-un-dossier">3️⃣ Création et navigation dans un dossier</h2>
+<h3 id="creation-dun-dossier">Création d’un dossier</h3>
+<pre><code class="language-bash">mkdir cli
+</code></pre>
+<p><code>mkdir</code> permet de créer un nouveau dossier nommé <strong>cli</strong>.</p>
+<h3 id="se-deplacer-dans-le-dossier">Se déplacer dans le dossier</h3>
+<pre><code class="language-bash">cd cli
+</code></pre>
+<p><code>cd</code> (<em>change directory</em>) permet d’entrer dans le dossier <code>cli</code>.</p>
+<hr />
+<h2 id="4-creation-et-modification-dun-fichier">4️⃣ Création et modification d’un fichier</h2>
+<h3 id="creation-dun-fichier-vide">Création d’un fichier vide</h3>
+<pre><code class="language-bash">touch exercice_cli.txt
+</code></pre>
+<p><code>touch</code> crée un fichier vide nommé <code>exercice_cli.txt</code>.</p>
+<h3 id="verification-avec-ls">Vérification avec <code>ls</code></h3>
+<pre><code class="language-bash">ls
+</code></pre>
+<p>Résultat :</p>
+<pre><code>exercice_cli.txt
+</code></pre>
+<p><code>ls</code> liste les fichiers présents dans le dossier courant.</p>
+<hr />
+<h3 id="ajouter-du-contenu-dans-le-fichier">Ajouter du contenu dans le fichier</h3>
+<pre><code class="language-bash">echo &quot;Ma nouvelle phrase&quot; &gt;&gt; exercice_cli.txt
+</code></pre>
+<p><code>echo</code> écrit du texte.<br />
+<code>&gt;&gt;</code> ajoute le contenu à la fin du fichier (sans écraser le contenu existant).</p>
+<hr />
+<h3 id="afficher-le-contenu-du-fichier">Afficher le contenu du fichier</h3>
+<pre><code class="language-bash">cat exercice_cli.txt
+</code></pre>
+<p>Résultat :</p>
+<pre><code>Ma nouvelle phrase
+</code></pre>
+<p><code>cat</code> permet d’afficher le contenu d’un fichier dans le terminal.</p>
+<hr />
+<h2 id="5-renommer-un-fichier">5️⃣ Renommer un fichier</h2>
+<pre><code class="language-bash">mv exercice_cli.txt exercice_cli_initial.txt
+</code></pre>
+<p><code>mv</code> permet de <strong>renommer</strong> ou <strong>déplacer</strong> un fichier.</p>
+<p>Vérification :</p>
+<pre><code class="language-bash">ls
+</code></pre>
+<p>Résultat :</p>
+<pre><code>exercice_cli_initial.txt
+</code></pre>
+<hr />
+<h2 id="6-copier-un-fichier">6️⃣ Copier un fichier</h2>
+<pre><code class="language-bash">cp exercice_cli_initial.txt exercice_cli_copie.txt
+</code></pre>
+<p><code>cp</code> permet de <strong>copier un fichier</strong>.</p>
+<p>Vérification :</p>
+<pre><code class="language-bash">ls
+</code></pre>
+<p>Résultat :</p>
+<pre><code>exercice_cli_copie.txt  exercice_cli_initial.txt
+</code></pre>
+<p>On a maintenant <strong>deux fichiers distincts</strong> contenant le même texte.</p>
+<hr />
+<h1 id="resume-des-commandes-utilisees">✅ Résumé des commandes utilisées</h1>
+<table>
+<thead>
+<tr>
+<th>Commande</th>
+<th>Fonction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>pwd</code></td>
+<td>Affiche le dossier courant</td>
+</tr>
+<tr>
+<td><code>mkdir</code></td>
+<td>Crée un dossier</td>
+</tr>
+<tr>
+<td><code>cd</code></td>
+<td>Change de dossier</td>
+</tr>
+<tr>
+<td><code>touch</code></td>
+<td>Crée un fichier vide</td>
+</tr>
+<tr>
+<td><code>ls</code></td>
+<td>Liste les fichiers</td>
+</tr>
+<tr>
+<td><code>echo &gt;&gt;</code></td>
+<td>Ajoute du texte dans un fichier</td>
+</tr>
+<tr>
+<td><code>cat</code></td>
+<td>Affiche le contenu d’un fichier</td>
+</tr>
+<tr>
+<td><code>mv</code></td>
+<td>Renomme ou déplace un fichier</td>
+</tr>
+<tr>
+<td><code>cp</code></td>
+<td>Copie un fichier</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Cet exercice montre les bases essentielles de la gestion de fichiers en ligne de commande sous Linux.</p>
 <h1 id="prise-de-note-gdalogr">Prise de note GDAL/OGR</h1>
 <p>Création de l'arbirescence en mode CLI</p>
 <pre><code class="language-bash">mkdir dossier &amp;&amp; cd dossier 
@@ -1033,12 +1162,12 @@ gdalwarp -cutline HG.shp -cl HG -of VRT mnt31.vrt mnt31_decoup.vrt
 <pre><code class="language-bash">gdalwarp -s_srs EPSG:3857 -t_srs EPSG:2154 -of VRT T31TCJ.tif T31TCJ_2154.vrt
 </code></pre>
 <h2 id="7-extraction-de-communes-et-traitements-avances">7. 🧭 Extraction de communes et traitements avancés</h2>
-<p>Extraction d’une commune
-bash
-ogr2ogr -where "INSEE_COM='31555'" toulouse.shp COMMUNE.shp
-Découpage d’un MNT sur une commune
-bash
-gdalwarp -cutline COMMUNE.shp -cl COMMUNE -crop_to_cutline mnt31_decoup.vrt mnt31_decoup_lanta.vrt</p>
+<p>Extraction d’une commune</p>
+<pre><code class="language-bash">ogr2ogr -where &quot;INSEE_COM='31555'&quot; toulouse.shp COMMUNE.shp
+</code></pre>
+<p>Découpage d’un MNT sur une commune</p>
+<pre><code class="language-bash">gdalwarp -cutline COMMUNE.shp -cl COMMUNE -crop_to_cutline mnt31_decoup.vrt mnt31_decoup_lanta.vrt
+</code></pre>
 <h2 id="8-analyses-raster-courbes-de-niveau-ombrage-hypsometrie">8. 🏔️ Analyses raster : courbes de niveau, ombrage, hypsométrie</h2>
 <p>Courbes de niveau</p>
 <pre><code class="language-bash">gdal_contour -a elev -i 5 mnt31_decoup.vrt contour_mnt.shp
