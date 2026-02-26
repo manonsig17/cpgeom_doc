@@ -1004,9 +1004,17 @@ mkdocs build
 mkdocs gh-deploy
 </code></pre>
 <p>Nous avons : </p>
+<ul>
+<li>
 <p>créé un site documentaire,</p>
+</li>
+<li>
 <p>utilisé le thème Material,</p>
+</li>
+<li>
 <p>déployé le site sur GitHub Pages.</p>
+</li>
+</ul>
 <h2 id="4-manipulation-de-donnees-vrt-avec-gdalogr">4. 🌐 Manipulation de données VRT avec GDAL/OGR</h2>
 <p>Clonage du dépôt d’exercices</p>
 <pre><code class="language-bash">git clone https://github.com/pi-geosolutions/formation_VRT.git
@@ -1016,9 +1024,17 @@ mkdocs gh-deploy
 ogrinfo locations.vrt
 </code></pre>
 <p>Nous avons appris à :</p>
+<ul>
+<li>
 <p>lire la structure d’un fichier VRT,</p>
+</li>
+<li>
 <p>inspecter les champs et géométries,</p>
+</li>
+<li>
 <p>convertir un VRT en CSV :</p>
+</li>
+</ul>
 <pre><code class="language-bash">ogr2ogr -f CSV /vsistdout/ fichier.vrt | head
 </code></pre>
 <p>Génération automatique de VRT</p>
@@ -1062,15 +1078,25 @@ gdalwarp -cutline HG.shp -cl HG -of VRT mnt31.vrt mnt31_decoup.vrt
 <pre><code class="language-bash">gdaldem color-relief mnt31_decoup.vrt color.txt mnt31_decoup_color.vrt
 </code></pre>
 <h2 id="9-manipulation-de-fichiers-et-commandes-cli">9. 📁 Manipulation de fichiers et commandes CLI</h2>
-<p>création de dossiers (mkdir),</p>
-<p>création/édition de fichiers (touch, echo, nano),</p>
-<p>copie/déplacement (cp, mv),</p>
-<p>inspection (ls, tree, cat).</p>
+<ul>
+<li>
+<p>création de dossiers (<strong>mkdir</strong>),</p>
+</li>
+<li>
+<p>création/édition de fichiers (<strong>touch, echo, nano</strong>),</p>
+</li>
+<li>
+<p>copie/déplacement (<strong>cp, mv</strong>),</p>
+</li>
+<li>
+<p>inspection (<strong>ls, tree, cat</strong>).</p>
+</li>
+</ul>
 <h2 id="10-connexion-a-postgresql">10. 🗄️ Connexion à PostgreSQL</h2>
 <pre><code class="language-bash">psql -h localhost -p 5432 -U postgres -d postgres
 psql -h 192.168.10.1 -p 15432 -U editeur -d manon
 </code></pre>
-<p>Tu as testé la connexion à différentes bases PostgreSQL/PostGIS.</p>
+<p>Nous avons testé la connexion à différentes bases PostgreSQL/PostGIS.</p>
 
 
 
