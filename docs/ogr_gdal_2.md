@@ -72,11 +72,11 @@ mkdocs gh-deploy
 ```
 Nous avons : 
 
-créé un site documentaire,
+- créé un site documentaire,
 
-utilisé le thème Material,
+- utilisé le thème Material,
 
-déployé le site sur GitHub Pages.
+- déployé le site sur GitHub Pages.
 
 ## 4. 🌐 Manipulation de données VRT avec GDAL/OGR
 
@@ -91,11 +91,11 @@ ogrinfo locations.vrt
 ```
 Nous avons appris à :
 
-lire la structure d’un fichier VRT,
+- lire la structure d’un fichier VRT,
 
-inspecter les champs et géométries,
+- inspecter les champs et géométries,
 
-convertir un VRT en CSV :
+- convertir un VRT en CSV :
 
 ```bash
 ogr2ogr -f CSV /vsistdout/ fichier.vrt | head
@@ -153,17 +153,17 @@ gdaldem color-relief mnt31_decoup.vrt color.txt mnt31_decoup_color.vrt
 ```
 ## 9. 📁 Manipulation de fichiers et commandes CLI
 
-création de dossiers (mkdir),
+- création de dossiers (**mkdir**),
 
-création/édition de fichiers (touch, echo, nano),
+- création/édition de fichiers (**touch, echo, nano**),
 
-copie/déplacement (cp, mv),
+- copie/déplacement (**cp, mv**),
 
-inspection (ls, tree, cat).
+- inspection (**ls, tree, cat**).
 
 ## 10. 🗄️ Connexion à PostgreSQL
 ```bash
 psql -h localhost -p 5432 -U postgres -d postgres
 psql -h 192.168.10.1 -p 15432 -U editeur -d manon
 ```
-Tu as testé la connexion à différentes bases PostgreSQL/PostGIS.
+Nous avons testé la connexion à différentes bases PostgreSQL/PostGIS.
