@@ -1,39 +1,179 @@
-```bash
-idgeo@GS6:~$ ogrinfo
-Usage: ogrinfo [--help] [--help-general]
-               [-if <driver_name>] [-json] [-ro] [-q] [-where <restricted_where>|@f<ilename>]
-               [-spat <xmin> <ymin> <xmax> <ymax>] [-geomfield <field>] [-fid <fid>]
-               [-sql <statement>|@<filename>] [-dialect <sql_dialect>] [-al] [-rl]
-               [-so|-features] [-fields={YES|NO}]]
-               [-geom={YES|NO|SUMMARY|WKT|ISO_WKT}] [-oo <NAME>=<VALUE>]...
-               [-nomd] [-listmdd] [-mdd {<domain>|all}]...
-               [-nocount] [-noextent] [-nogeomtype] [-wkt_format WKT1|WKT2|<other_values>]
-               [-fielddomain <name>]
-               <datasource_name> [<layer> [<layer> ...]]
+# 🖥️ Manipulation de fichiers en ligne de commande (CLI)
 
+Dans cet exercice, nous utilisons le terminal Linux pour manipuler des fichiers et des dossiers, ainsi que pour tester une commande SIG (`ogrinfo`).
+
+---
+
+## 1️⃣ Test de la commande `ogrinfo`
+
+```bash
+ogrinfo
+```
+
+La commande affiche son message d’aide (usage), car **aucune source de données (datasource) n’a été spécifiée**.
+
+Message clé :
+
+```
 FAILURE: No datasource specified.
-idgeo@GS6:~$ pwd
+```
+
+Cela signifie que `ogrinfo` attend un fichier ou une base de données géospatiale en paramètre (par exemple un Shapefile, GeoJSON, etc.).
+
+---
+
+## 2️⃣ Vérification du répertoire courant
+
+```bash
+pwd
+```
+
+Résultat :
+
+```
 /home/idgeo
-idgeo@GS6:~$ mkdir cli
-idgeo@GS6:~$ cd cli
-idgeo@GS6:~/cli$ touch exercice_cli.txt
-idgeo@GS6:~/cli$ ls
+```
+
+La commande `pwd` (*print working directory*) affiche le dossier dans lequel on se trouve actuellement.
+
+---
+
+## 3️⃣ Création et navigation dans un dossier
+
+### Création d’un dossier
+
+```bash
+mkdir cli
+```
+
+`mkdir` permet de créer un nouveau dossier nommé **cli**.
+
+### Se déplacer dans le dossier
+
+```bash
+cd cli
+```
+
+`cd` (*change directory*) permet d’entrer dans le dossier `cli`.
+
+---
+
+## 4️⃣ Création et modification d’un fichier
+
+### Création d’un fichier vide
+
+```bash
+touch exercice_cli.txt
+```
+
+`touch` crée un fichier vide nommé `exercice_cli.txt`.
+
+### Vérification avec `ls`
+
+```bash
+ls
+```
+
+Résultat :
+
+```
 exercice_cli.txt
-idgeo@GS6:~/cli$ echo "Ma nouvelle phrase" >> exercice_cli.txt
-idgeo@GS6:~/cli$ cat exercice_cli.txt
+```
+
+`ls` liste les fichiers présents dans le dossier courant.
+
+---
+
+### Ajouter du contenu dans le fichier
+
+```bash
+echo "Ma nouvelle phrase" >> exercice_cli.txt
+```
+
+`echo` écrit du texte.  
+`>>` ajoute le contenu à la fin du fichier (sans écraser le contenu existant).
+
+---
+
+### Afficher le contenu du fichier
+
+```bash
+cat exercice_cli.txt
+```
+
+Résultat :
+
+```
 Ma nouvelle phrase
-idgeo@GS6:~/cli$ mv exercice_cli.txt exercice_cli_initial.txt
-idgeo@GS6:~/cli$ ls
+```
+
+`cat` permet d’afficher le contenu d’un fichier dans le terminal.
+
+---
+
+## 5️⃣ Renommer un fichier
+
+```bash
+mv exercice_cli.txt exercice_cli_initial.txt
+```
+
+`mv` permet de **renommer** ou **déplacer** un fichier.
+
+Vérification :
+
+```bash
+ls
+```
+
+Résultat :
+
+```
 exercice_cli_initial.txt
-idgeo@GS6:~/cli$ cat exercice_cli_initial.txt
-Ma nouvelle phrase
-idgeo@GS6:~/cli$ cp exercice_cli_initial.txt exercice_cli_copie.txt
-idgeo@GS6:~/cli$ ls
-exercice_cli_copie.txt  exercice_cli_initial.txt
-idgeo@GS6:~/cli$ ls
+```
+
+---
+
+## 6️⃣ Copier un fichier
+
+```bash
+cp exercice_cli_initial.txt exercice_cli_copie.txt
+```
+
+`cp` permet de **copier un fichier**.
+
+Vérification :
+
+```bash
+ls
+```
+
+Résultat :
+
+```
 exercice_cli_copie.txt  exercice_cli_initial.txt
 ```
 
+On a maintenant **deux fichiers distincts** contenant le même texte.
+
+---
+
+# ✅ Résumé des commandes utilisées
+
+| Commande | Fonction |
+|----------|----------|
+| `pwd` | Affiche le dossier courant |
+| `mkdir` | Crée un dossier |
+| `cd` | Change de dossier |
+| `touch` | Crée un fichier vide |
+| `ls` | Liste les fichiers |
+| `echo >>` | Ajoute du texte dans un fichier |
+| `cat` | Affiche le contenu d’un fichier |
+| `mv` | Renomme ou déplace un fichier |
+| `cp` | Copie un fichier |
+
+---
+
+Cet exercice montre les bases essentielles de la gestion de fichiers en ligne de commande sous Linux.
 
 
 # Prise de note GDAL/OGR
@@ -169,11 +309,13 @@ gdalwarp -s_srs EPSG:3857 -t_srs EPSG:2154 -of VRT T31TCJ.tif T31TCJ_2154.vrt
 ```
 ## 7. 🧭 Extraction de communes et traitements avancés
 Extraction d’une commune
-bash
+```bash
 ogr2ogr -where "INSEE_COM='31555'" toulouse.shp COMMUNE.shp
+```
 Découpage d’un MNT sur une commune
-bash
+```bash
 gdalwarp -cutline COMMUNE.shp -cl COMMUNE -crop_to_cutline mnt31_decoup.vrt mnt31_decoup_lanta.vrt
+```
 ## 8. 🏔️ Analyses raster : courbes de niveau, ombrage, hypsométrie
 Courbes de niveau
 ```bash
