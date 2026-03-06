@@ -23,10 +23,9 @@ nav:
       - Sources: 6_source.md 
 
 
-  - PostgreSQL:
+  - Invite de commande sur ubuntu:
       - Administration: 7_administrer_son_serveur.md
-  - SIG:
-      - OGR/GDAL: 4_ogr_gdal.md
+      - rappel commande: 4_ogr_gdal.md
       - OGR/GDAL (suite): 5_ogr_gdal_2.md
 
 
