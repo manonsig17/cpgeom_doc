@@ -591,7 +591,6 @@ Options :
 | -f | suivre en temps réel |
 | -n 100 | afficher 100 lignes |
 
----
 
 # 9. Sauvegarde d’un fichier de configuration
 
@@ -602,7 +601,6 @@ sudo cp /etc/postgresql/16/main/postgresql.conf \
 
 Permet de conserver une **copie de sécurité**.
 
----
 
 # 10. Modifier la configuration PostgreSQL
 
@@ -639,8 +637,6 @@ Permet de voir :
 - mémoire
 - processus PostgreSQL
 
----
-
 # 12. Création d’un tablespace
 
 Créer le dossier :
@@ -674,8 +670,6 @@ sudo ls -la tablespace/PG_16_202307071
 sudo ls -la tablespace/PG_16_202307071/16388
 ```
 
----
-
 # 13. Exécuter un script SQL
 
 ```bash
@@ -694,8 +688,6 @@ Cela permet :
 ```bash
 psql -U postgres -p 5432 -d rugby_top
 ```
-
----
 
 # 15. Sauvegarde d’une base
 

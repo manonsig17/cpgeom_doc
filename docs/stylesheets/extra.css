@@ -1,0 +1,40 @@
+/* 🌸 Fond printemps animé */
+
+.md-main {
+  background: linear-gradient(
+    -45deg,
+    #e8f5e9,
+    #c8e6c9,
+    #fce4ec,
+    #f8bbd0
+  );
+  background-size: 400% 400%;
+  animation: springGradient 20s ease infinite;
+}
+
+/* animation douce */
+
+@keyframes springGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* effet doux sur les blocs */
+
+.md-typeset pre {
+  border-radius: 12px;
+}
+
+.md-typeset table {
+  border-radius: 10px;
+  overflow: hidden;
+}
