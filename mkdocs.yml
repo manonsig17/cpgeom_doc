@@ -20,14 +20,14 @@ nav:
   - Générale donnée et métadonnée:
       - Métadonnée: 2_metadonnees.md
       - Intérpérabilité: 3_interoperabilite.md 
-      - Sources: 6_sources.md 
+      - Sources: 6_source.md 
 
 
   - PostgreSQL:
       - Administration: 7_administrer_son_serveur.md
   - SIG:
       - OGR/GDAL: 4_ogr_gdal.md
-      - OGR/GDAL (suite): 5_ogr_gdal.md
+      - OGR/GDAL (suite): 5_ogr_gdal_2.md
 
 
 extra_css:
